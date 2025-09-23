@@ -1,4 +1,4 @@
-firstClass = new Date("2024-10-08"); // In 2024: Remove hard-coded deadline on row 5 of index.html
+firstClass = new Date("2025-10-06"); // In 2024: Remove hard-coded deadline on row 5 of index.html
 // wenlockDeadline = new Date("2024-01-08");
 // In 2024: Update classDatasetDeadline to day 40, unless teaching on Monday again; 
 // Better still, use a global variable to set this.
@@ -27,10 +27,9 @@ const classLinks = {
   'wenlockRubric': 'pdf/WenlockRubric.pdf',
   'notebookRubric': 'pdf/NotebookRubric.pdf',
   'wenlockSlabs': 'https://sketchfab.com/smithlabdurham/collections/wenlock-limestone-samples',
-  'discussionBoard': 'https://blackboard.durham.ac.uk/ultra/courses/_58040_1/outline/discussion/_2175474_1?view=discussions&courseId=_58040_1',
-  'blackboard': 'https://blackboard.durham.ac.uk/ultra/courses/_58040_1/outline',
-  'readingList': 'https://rl.talis.com/3/durham/lists/CEE9BDD6-054D-007A-93FF-F0D055AFDD3E.html',
-  'jupyter': 'https://palaeoecosystems-2425.notebooks.danielmaitre.phyip3.dur.ac.uk/'
+  'discussionBoard': 'https://blackboard.durham.ac.uk/ultra/courses/_68197_1/outline/discussion/_2935376_1?view=discussions&courseId=_68197_1',
+  'blackboard': 'https://blackboard.durham.ac.uk/ultra/courses/_68197_1/outline',
+  'readingList': 'https://rl.talis.com/3/durham/lists/09FCB0AB-E684-EF9B-8A27-A7DCC3FF5EFB.html'
 };
 
 for (const [aClass, aHref] of Object.entries(classLinks)) {
