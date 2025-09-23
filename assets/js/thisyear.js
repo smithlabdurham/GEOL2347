@@ -1,5 +1,5 @@
 firstClass = new Date("2025-10-06");
-wenlockDeadline = new Date("2026-01-05");
+wenlockDeadline = new Date("2026-01-12");
 // Update classDatasetDeadline to day 40, unless teaching on Monday again; 
 // Better still, use a global variable to set this.
 // wenlockDeadline = new Date(firstClass.valueOf());
